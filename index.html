@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Details form</title>
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://f onts.googleapis.com/css2?family=Gabarito:wght@400..900&family=Young+Serif&display=swap"
+    rel="stylesheet">
+
+    
+
+    
+</head>
+<body>
+    
+    <h1 class="heading">STUDENT FORM</h1>
+    <div id="frm1" >
+       
+        <form>
+            <table class="tab1"  >
+                <tr>
+                    <td>Name</td>
+                    <td><input type="text" id="name" placeholder="Enter your name"></td>
+                </tr>
+                <tr>
+                    <td>Age</td>
+                    <td><input type="number" id="age" placeholder="Enter your age"></td>
+                </tr>
+                <tr>
+                    <td>Gender</td>
+                    <td><input<label for="male">Male</label>
+                        <input type="radio" id="Male" name="gender" value="male">
+                        
+                        <label for="female">Female</label>
+                        <input type="radio" id="female" name="gender" value="female">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Course</td>
+                    <td> <label for="course"></label>
+                        <select id="course" name="course">
+                            <option value="web-development">Web Development</option>
+                            <option value="UI/UX Designing">UI/UX Designing</option>
+                          <option value="data analytics">data analytics</option>
+                          <option value="data-science">Data Science</option>
+                          <option value="graphic-design">Graphic Design</option>
+                          <option value="digital-marketing">Digital Marketing</option> 
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Email:</td>
+                    <td><input type="email" id="email" placeholder="abc@gmail.com"></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><button id="btn1">SAVE</button></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+    
+    <div id="frm2">
+        <form>
+        <table class="tab2 ">
+           
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Gender</th>
+                <th>Course</th>
+                <th>Email</th>
+                <th>Action</th>
+            </tr>
+            
+            
+        </table>
+    </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
